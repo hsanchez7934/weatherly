@@ -1,0 +1,10 @@
+.go-button{
+      width: 97px;
+      border-radius: 100px;
+      border: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      cursor: pointer;
+      background: black;
+      color: white;
+}
