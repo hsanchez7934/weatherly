@@ -1,0 +1,13 @@
+.section-left{
+  width: 50%;
+  background: black;
+  color: white;
+  opacity: .5;
+  text-align: center;
+}
+
+.city{
+  font-size: 42px;
+  margin-top: 0;
+  padding-top: 32px;
+}
