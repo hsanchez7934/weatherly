@@ -1,40 +1,38 @@
-html{
-  font-family: "Source Sans Pro"
+html {
+  font-family: "Source Sans Pro";
 }
 
-h1{
-      margin-bottom: 30px;
-      font-size: 90px;
+h1 {
+  font-size: 140px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.button{
-      font-size: 20px;
-      width: 156px;
-      border-radius: 100px;
-      border: none;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      cursor: pointer;
-      background: black;
-      color: white;
-}
-.welcome-container{
-      height: 600px;
-
-     padding-top: 90px;
-    text-align: center;
+.welcome-container {
+  height: 400px;
 }
 
-.search-bar{
-  font-size: 22px;
-width: 377px;
-margin-bottom: 50px;
+.background-video  {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  animation-delay: 1s;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 2, .2);
+  -webkit-animation-duration: .2s;
 }
 
-.mid-ground{
-
+.mid-ground {
+  z-index: 1;
+  position: absolute;
+  top: 260px;
+  left: 350px;
 }
-
 
 //gradient
 .frame {
@@ -68,7 +66,7 @@ div[class^="gradient"] {
   background: -webkit-linear-gradient(-45deg, #77C8C0 0%, #267AAC 100%);
   background: -webkit-linear-gradient(315deg, #77C8C0 0%, #267AAC 100%);
   background: linear-gradient(135deg, #77C8C0 0%, #267AAC 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77C8C0', endColorstr='#267AAC',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77C8C0', endColorstr='#267AAC', GradientType=1);
 }
 
 .gradient-2 {
@@ -78,9 +76,9 @@ div[class^="gradient"] {
   background: -webkit-linear-gradient(-45deg, #4AD7B8 0%, #f39c12 100%);
   background: -webkit-linear-gradient(315deg, #4AD7B8 0%, #f39c12 100%);
   background: linear-gradient(135deg, #4AD7B8 0%, #f39c12 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4AD7B8', endColorstr='#f39c12',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4AD7B8', endColorstr='#f39c12', GradientType=1);
   -webkit-animation: gradient 4s ease-in-out infinite;
-          animation: gradient 4s ease-in-out infinite;
+  animation: gradient 4s ease-in-out infinite;
 }
 
 @-webkit-keyframes gradient {
