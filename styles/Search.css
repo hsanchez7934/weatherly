@@ -46,5 +46,21 @@
   background-color: #fff;
   color: #000;
   overflow: scroll;
-  height: 80px;
+  height: 100px;
+  width: 400px;
+  padding: 0;
+}
+
+.suggestion-listed {
+  list-style-type: none;
+  background-color: #000;
+  opacity: 0.9;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.suggestion-listed:hover{
+  cursor:pointer;
+  background-color: #52d6e5;
 }
