@@ -1,5 +1,4 @@
 .day-card {
-  /*border: 1px solid black;*/
   display: flex;
   width: 100%;
   height: 15%;
@@ -8,15 +7,11 @@
 }
 
 .ten-day {
-  /*border: 1px solid red;*/
-  /*height: 100%;*/
   width: 70%;
   margin: 0;
   padding: 5px 0px 5px 15px;
   color: #fff;
   margin-bottom: 30px;
-  /*background-color: #000;*/
-  /*opacity: 0.8;*/
   font-size: 18px;
 }
 
@@ -29,12 +24,9 @@
   display: flex;
   justify-content: center;
   width: 10%;
-  /*border: 1px solid purple;*/
 }
 
 .day-high {
-  /*border: 1px solid green;*/
-  /*height: 100%;*/
   width: 10%;
   margin: 0;
   text-align: center;
@@ -45,8 +37,6 @@
 }
 
 .day-low {
-  /*border: 1px solid blue;*/
-  /*height: 100%;*/
   width: 10%;
   margin: 0;
   text-align: center;
