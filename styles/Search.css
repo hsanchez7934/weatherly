@@ -11,6 +11,7 @@
 }
 .search-bar:focus {
   outline-color: #52d6e5;
+  outline-width: 8px;
 }
 
 ::-webkit-input-placeholder {
@@ -70,4 +71,5 @@
   cursor:pointer;
   background-color: #52d6e5;
   font-style: bold;
+  color: #000;
 }

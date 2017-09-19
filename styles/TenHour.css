@@ -1,42 +1,31 @@
 .ten-day-container{
   justify-content: space-between;
-      width: 50%;
-      height: 100vh;
-      /* background: black; */
-      background: linear-gradient(to top, #13121F 0%, #6b0000 100%);
-      display: flex;
-      flex-direction: column;
+  width: 50%;
+  background: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .ten-day {
   width: 60%;
-  /*border: 1px solid red;*/
-  /*height: 100%;*/
-  /*width: 50%;*/
   margin: 0;
   padding: 5px 0px 5px 15px;
   color: #fff;
-  /*margin-bottom: 30px;*/
-  /*background-color: #000;*/
-  /*opacity: 0.8;*/
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .day-card {
   padding-top: 40px;
-  /*border: 1px solid black;*/
   display: flex;
   flex: 1;
-
-  /*height: 15%;*/
   background-color: #000;
   opacity: 0.8;
 }
 
 
 .icon {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
 }
 
 .ten-day-icon {
@@ -44,8 +33,6 @@
   justify-content: center;
   width: 10%;
   padding-left: 20px;
-  /*border: 1px solid purple;*/
-
 }
 
 .day-high {
@@ -55,7 +42,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: #47f5d2;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .day-low {
@@ -68,14 +55,10 @@
   font-size: 18px;
 }
 
-.ten-day-container {
-  /*background-image: url(../assets/night-sky.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
-}
-
 @media (max-width: 900px) {
   .ten-day-container {
     width: 100%;
+    padding-bottom: 30px;
+    font-size: 18px;
   }
 }
