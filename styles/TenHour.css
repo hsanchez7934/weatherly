@@ -1,4 +1,3 @@
-
 .ten-day-container{
   justify-content: space-between;
       width: 50%;
@@ -45,11 +44,10 @@
   width: 10%;
   padding-left: 20px;
   /*border: 1px solid purple;*/
+
 }
 
 .day-high {
-  /*border: 1px solid green;*/
-  /*height: 100%;*/
   width: 10%;
   margin: 0;
   text-align: center;
