@@ -9,6 +9,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.search-bar:focus {
+  outline-color: #52d6e5;
+}
+
 ::-webkit-input-placeholder {
   color: #000;
 }
@@ -43,19 +47,21 @@
 }
 
 .suggestions-visible {
-  background-color: #fff;
   color: #000;
   overflow: scroll;
   height: 100px;
-  width: 400px;
+  width: 420px;
   padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
 }
 
 .suggestion-listed {
   list-style-type: none;
-  background-color: #000;
   opacity: 0.9;
-  font-size: 15px;
+  font-size: 19px;
   color: #fff;
   text-align: center;
 }
@@ -63,4 +69,5 @@
 .suggestion-listed:hover{
   cursor:pointer;
   background-color: #52d6e5;
+  font-style: bold;
 }
