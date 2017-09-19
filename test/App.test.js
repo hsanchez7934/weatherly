@@ -5,5 +5,4 @@ import MockData from '../Mockdata.js';
 
 
 describe('App Component', () => {
-  const weather = MockData.current_observation
 })
