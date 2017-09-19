@@ -1,24 +1,20 @@
-/** {
-  font-family: 'Source Sans Pro', sans-serif;
-}*/
-
 .section-left{
     width: 70%;
-    background: linear-gradient(to top, #13121F 0%, #6b0000 100%);
+    background: linear-gradient(to top, #13121F 0%, #013029 100%);
     display: inline-block;
     margin: 0px;
     padding-left: 0px;
-    height: 100vh;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .weather-card{
   color: white;
-  width: 500px;
+  width: 650px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .city{
   font-weight: normal;
@@ -38,14 +34,13 @@
 .main-icon{
   width: 222px;
   margin-bottom: 24px;
-
 }
 
 .temperature-box{
-      display: flex;
-      font-weight: 300;
-      justify-content: space-evenly;
-      font-size: 28px;
+  display: flex;
+  font-weight: 300;
+  justify-content: space-evenly;
+  font-size: 28px;
 }
 
 .current{
@@ -64,11 +59,11 @@
 }
 
 .summary{
-    padding-top: 0px;
-    font-weight: 100;
-    font-size: 24px;
-    opacity: .7;
-    margin-bottom: 40px;
+  padding-top: 0px;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: .7;
+  margin-bottom: 40px;
 }
 
 .hourly{
@@ -84,18 +79,15 @@
 
 .seven-hour-condition{
   opacity: 1;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .seven-hour-temperature-icon{
   color: #83ffea;
 }
 
-/*.icon{
-      padding-top: 15px;
-}*/
-
 @media (max-width: 950px) {
-
   .section-left{
     width: 100%;
   }
