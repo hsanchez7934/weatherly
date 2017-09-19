@@ -23,6 +23,7 @@
 }
 
 .day-card {
+  padding-top: 40px;
   /*border: 1px solid black;*/
   display: flex;
   flex: 1;
@@ -64,7 +65,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: #d1d3d6;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .ten-day-container {
