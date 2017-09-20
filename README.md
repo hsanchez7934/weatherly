@@ -1,4 +1,6 @@
-# React Starter Kit
+# Weatherly
+
+![original comp](/Users/turing/Documents/turing/mod-2/projects/weatherly/react-starter-kit/imagery/1.png)
 
 To install the dependencies:
 
