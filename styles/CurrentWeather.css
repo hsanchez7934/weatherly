@@ -118,7 +118,7 @@
   color: #83ffea;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .section-left{
     width: 100%;
   }
