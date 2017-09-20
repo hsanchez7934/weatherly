@@ -1,6 +1,20 @@
 # Weatherly
 
-![original comp](imagery/1.png)
+Welcome Screen
+
+![Welcome Screen](imagery/1.png)
+
+Main Page
+
+![Main Page](imagery/2.png)
+
+Original Comp
+
+![original comp](imagery/st1.svg)
+
+![original comp](imagery/st2.svg)
+
+![original comp](imagery/st3.svg)
 
 To install the dependencies:
 
