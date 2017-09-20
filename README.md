@@ -10,11 +10,11 @@ Main Page
 
 Original Comp
 
-![original comp](imagery/st1.svg)
+![original comp](weatherly-ui-1.jpg)
 
-![original comp](imagery/st2.svg)
+![original comp](weatherly-ui-2.jpg)
 
-![original comp](imagery/st3.svg)
+![original comp](weatherly-ui-3.jpg)
 
 To install the dependencies:
 
