@@ -45,5 +45,4 @@ describe('welcome component', () => {
     let currentTemp = wrapper.find('day-high');
     expect(currentTemp).toBeTruthy();
   });
-
 })
