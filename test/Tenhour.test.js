@@ -6,8 +6,9 @@ import TenHour from '../lib/components/Tenhour.js';
 
 describe('Tenhour component', () => {
   it('should return specific icon', () => {
-    const tenhour = shallow(<Tenhour />);
+    const wrapper = shallow(<TenHour />);
     console.log(tenhour.debug());
     // expect(tenhour.setIcon('Clear')).toBe('../assets/sunny.svg');
+    // expect(wrapper).toBeDefined();
   })
 })
