@@ -23,11 +23,11 @@
     margin-bottom: 27px;
     opacity: .8;
     -webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
-    	-webkit-transition: all 0.5s linear;
-    	-o-transition: all 0.5s linear;
-    	transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
 
-    /*text-decoration: none;
+   /*text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -39,7 +39,7 @@
 }
 
 .city:hover {
-  /*color: #FF1177;
+  /*color: #FF1177 ;
     -webkit-animation: none;
     -moz-animation: none;
     animation: none;*/
@@ -75,17 +75,17 @@
 }
 
 .current{
-  color: #74ffd9;
+  color: #74ffd9 ;
   margin: 0px;
 }
 
 .high{
-  color: #74ffd9;
+  color: #74ffd9 ;
   margin: 0px;
 }
 
 .low{
-  color: #74ffd9;
+  color: #74ffd9 ;
   margin: 0px;
 }
 
@@ -101,11 +101,15 @@
   background: black;
   opacity: .5;
   display: flex;
+  width: 80%;
   justify-content: space-evenly;
+  overflow-y: scroll;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seven-hour-condition-box{
-  width: 93px;
+  min-width: 140px;
 }
 
 .seven-hour-condition{
@@ -115,7 +119,7 @@
 }
 
 .seven-hour-temperature-icon{
-  color: #83ffea;
+  color: #83ffea ;
 }
 
 @media (max-width: 1000px) {

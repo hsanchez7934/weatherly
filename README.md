@@ -1,4 +1,20 @@
-# React Starter Kit
+# Weatherly
+
+Welcome Screen
+
+![Welcome Screen](imagery/1.png)
+
+Main Page
+
+![Main Page](imagery/2.png)
+
+Original Comp
+
+![original comp](imagery/weatherly-ui-1.jpg)
+
+![original comp](imagery/weatherly-ui-2.jpg)
+
+![original comp](imagery/weatherly-ui-3.jpg)
 
 To install the dependencies:
 

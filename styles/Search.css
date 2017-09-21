@@ -24,11 +24,11 @@
   height: 30px;
   width: 150px;
   margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 100px;
   border: none;
   opacity: 0.9;
-  background-color: #52d6e5;
-  color: #fff;
+  background-color: #5bc9af;
+  color: #343232;
   font-size: 18px;
 }
 
