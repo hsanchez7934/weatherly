@@ -11,21 +11,27 @@ describe('tenhour component', () => {
   let data;
 
   beforeEach(() => {
-    data = new DataProps(MockData);
     wrapper = shallow(<TenHour currentObservation={data}/>);
   });
 
-  it('should have a container',() => {
-    let newWrapper = shallow(<TenHour currentObservation={data} />)
-    console.log(newWrapper);
-    // console.log(data);
-    // const video = wrapper.find('.ten-day-container');
-    // console.log(video);
-    // expect(video).toBeTruthy();
+  it.skip('component should contain ten day cards',() => {
+    data = new DataProps(MockData);
+    const newWrapper = shallow(<TenHour currentObservation={[data]} />)
+    const dayCards = newWrapper.find('.day-card');
+    const firstDay = dayCards.at(0);
+    const firstDayHigh = firstDay.find('.day-high');
+
+    expect(dayCards.length).toEqual(10);
   });
 
-  it.skip('should exist', () => {
-    expect(wrapper).toBeDefined();
+  it('day card should render correct information', () => {
+    data = new DataProps(MockData);
+    const newWrapper = shallow(<TenHour currentObservation={[data]} />)
+    const dayCards = newWrapper.find('.day-card');
+    const firstDay = dayCards.at(0);
+    const firstDayHigh = firstDay.find('.day-high');
+
+    expect(firstDayHigh.text()).toEqual(67);
   });
 
   it.skip('should render elements', () => {
