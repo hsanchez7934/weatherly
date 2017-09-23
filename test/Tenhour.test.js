@@ -14,7 +14,7 @@ describe('tenhour component', () => {
     wrapper = shallow(<TenHour currentObservation={data}/>);
   });
 
-  it.skip('component should contain ten day cards',() => {
+  it('component should contain ten day cards',() => {
     data = new DataProps(MockData);
     const newWrapper = shallow(<TenHour currentObservation={[data]} />)
     const dayCards = newWrapper.find('.day-card');
@@ -24,14 +24,14 @@ describe('tenhour component', () => {
     expect(dayCards.length).toEqual(10);
   });
 
-  it.skip('day card should render correct information', () => {
+  it('day card should render correct information', () => {
     data = new DataProps(MockData);
     const newWrapper = shallow(<TenHour currentObservation={[data]} />)
     const dayCards = newWrapper.find('.day-card');
     const firstDay = dayCards.at(0);
     const firstDayHigh = firstDay.find('.day-high');
 
-    expect(firstDayHigh.text()).toEqual(67);
+    expect(firstDayHigh.text()).toEqual('67');
   });
 
 })

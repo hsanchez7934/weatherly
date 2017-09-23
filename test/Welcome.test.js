@@ -10,20 +10,20 @@ describe('welcome component', () => {
   beforeEach(() => {
     wrapper = shallow(<Welcome />);
   })
-  it.skip('input should be empty',() => {
+  it('input should be empty',() => {
     expect(wrapper.state('input')).toEqual('')
   });
 
-  it.skip('should have a background video',() => {
+  it('should have a background video',() => {
     const video = wrapper.find('video')
     expect(video).toBeTruthy();
   });
 
-  it.skip('should exist', () => {
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   })
 
-  it.skip('should render elements', () => {
+  it('should render elements', () => {
     const elements = wrapper.find('section')
     expect(elements).toHaveLength(1)
   })
