@@ -2,19 +2,25 @@ import React, { Component } from 'react';
 import App from '../lib/components/App/App.js';
 import { shallow, mount } from 'enzyme';
 import MockData from '../Mockdata.js';
-import TenHour from '../lib/components/Tenhour.js';
-import Welcome from '../lib/components/Welcome/Welcome.js';
-import currentWeather from '../lib/components/Current/CurrentWeather.js'
+import currentWeather from '../lib/components/Current/CurrentWeather.js';
+import DataProps from '../lib/components/DataProps.js';
 
 describe('Current Weather', () => {
   let wrapper;
+  let data;
 
   beforeEach(() => {
-    wrapper = shallow(<currentWeather />);
+    data = new DataProps(MockData);
+    wrapper = shallow(<currentWeather currentObservation={data}/>);
   });
 
   it.skip('should exist', () => {
     expect(wrapper).toBeDefined();
+    // console.log(data);
+    // console.log(wrapper.debug());
+var para =wrapper.find('.city');
+var paraTxt =para.text();
+console.log(paraTxt);
   });
 
   it.skip('should have a city', () => {
@@ -61,12 +67,16 @@ describe('Seven Hour Weather', () => {
   //   wrapper = mount(<currentWeather />);
   // });
 
-  it('should exist', () => {
-    const data = MockData.current_observation.display_location;
-    const newWrapper = mount(<currentWeather data={data}/>);
-    // console.log(data);
-    
-    expect()
+  it.skip('should exist', () => {
+    const data = new DataProps(MockData);
+    const dataCity =data.city;
+    console.log(dataCity);
+
+    const newWrapper = shallow(<currentWeather />);
+    // console.log(newWrapper.debug());
+
+    // expect(newWrapper.contains(<p className='city'>San Francisco</p>)).toEqual(true);
+    // expect(newWrapper.contains(<p className='city'>San Francisco</p>)).toEqual(true);
 
 
   });
