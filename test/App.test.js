@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import App from '../lib/components/App/App.js';
 import { shallow, mount } from 'enzyme';
 import MockData from '../mockdata.js';
-import HourCard from '../lib/components/Hourcard.js';
 import DataProps from '../lib/components/DataProps.js';
 import LocalStorage from '../Mock/storageMock.js';
 

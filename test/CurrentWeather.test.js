@@ -46,7 +46,6 @@ describe('Current Weather', () => {
     let description = weatherCard.find('.description')
 
     expect(description.text()).toEqual('Clear');
-    // console.log(description.text())
   });
 
 

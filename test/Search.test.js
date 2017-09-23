@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import App from '../lib/components/App/App.js';
 import { shallow, mount } from 'enzyme';
 import MockData from '../Mockdata.js';
-import TenHour from '../lib/components/Tenhour.js';
-import Welcome from '../lib/components/Welcome/Welcome.js'
 import Search from '../lib/components/Search/Search.js';
 
 describe('Search component', () => {
