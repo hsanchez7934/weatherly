@@ -8,14 +8,14 @@ import Search from '../lib/components/Search/Search.js';
 
 describe('Search component', () => {
 
-  it('state.input should be empty', () => {
+  it.skip('state.input should be empty', () => {
     const wrapper = shallow(<Search changeLocation={() => {}}/>);
     const input = wrapper.find('.search-component-container');
     // console.log(input.debug());
     expect(wrapper.state('input')).toEqual('');
   })
 });
-it('state.input should change when input is changed', () => {
+it.skip('state.input should change when input is changed', () => {
   const wrapper = shallow(<Search changeLocation={() => {}}/>);
   const searchContainer = wrapper.find('.search-component-container');
   const input = searchContainer.find('.search-bar');
@@ -27,7 +27,7 @@ it('state.input should change when input is changed', () => {
   expect(wrapper.state('input')).toEqual('denver, co')
 });
 
-it('should reset input back to empty', () => {
+it.skip('should reset input back to empty', () => {
   const wrapper = shallow(<Search changeLocation={() => {}}/>);
   const searchContainer = wrapper.find('.search-component-container');
   const input = searchContainer.find('.search-bar');
