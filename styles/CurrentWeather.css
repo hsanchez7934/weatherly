@@ -109,7 +109,9 @@
 }
 
 .seven-hour-condition-box{
-  min-width: 140px;
+  /*min-width: 140px;*/
+  width: 140px;
+
 }
 
 .seven-hour-condition{

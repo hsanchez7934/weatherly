@@ -28,7 +28,7 @@
   border: none;
   opacity: 0.9;
   background-color: #5bc9af;
-  color: #343232;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -51,12 +51,11 @@
   color: #000;
   overflow: scroll;
   height: 100px;
-  width: 420px;
+  width: 500px;
   padding: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #000;
+  margin: 0 auto;
 }
 
 .suggestion-listed {

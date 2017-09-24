@@ -28,9 +28,9 @@ describe('tenhour component', () => {
     const dayName = firstDay.find('.ten-day');
     const icon = firstDay.find('.icon');
 
-    expect(firstDayHigh.text()).toEqual('67');
-    expect(firstDayLow.text()).toEqual('55');
-    expect(dayName.text()).toEqual('Wednesday');
+    expect(firstDayHigh.text()).toEqual('H: 67');
+    expect(firstDayLow.text()).toEqual('L: 55');
+    expect(dayName.text()).toEqual('Today');
     expect(icon.prop('src')).toEqual('../assets/partlycloudy.svg');
   });
 

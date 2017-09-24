@@ -27,8 +27,11 @@ describe('App', () => {
     let wrapper = shallow(<App />);
     let welcome = wrapper.find('.app-container');
     let hidden = welcome.find('.body-hidden');
+    let visible = wrapper.find('.body-visible')
 
-    expect(hidden.prop('className')).toEqual('body-hidden')
+    expect(hidden.prop('className')).toEqual('body-hidden');
+    expect(hidden.exists()).toEqual(true);
+    expect(visible.exists()).toEqual(false);
   });
 
 
@@ -36,9 +39,12 @@ describe('App', () => {
     global.localStorage = new LocalStorage;
     global.localStorage.setItem('wunderground', 'Denver CO');
     let wrapper = shallow(<App />);
-    let visible = wrapper.find('.body-visible')
+    let visible = wrapper.find('.body-visible');
+    let hidden = wrapper.find('.body-hidden');
 
-    expect(visible.prop('className')).toEqual('body-visible')
+    expect(visible.prop('className')).toEqual('body-visible');
+    expect(visible.exists()).toEqual(true)
+    expect(hidden.exists()).toEqual(false)
 });
 
 })
